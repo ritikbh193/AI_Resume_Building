@@ -41,7 +41,7 @@ The form takes the following inputs:
 - Certifications: Optional certifications or achievements.
 - Contact Information: Address, phone number, email, and LinkedIn profile.
 - Example
-User Input:
+* User Input:
 Name: John Doe
 Skills: Python, Flask, React
 Experience: Software Developer at ABC Corp
