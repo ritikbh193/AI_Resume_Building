@@ -41,19 +41,16 @@ The form takes the following inputs:
 - Certifications: Optional certifications or achievements.
 - Contact Information: Address, phone number, email, and LinkedIn profile.
 - Example
-* User Input:
 
+## User Input:
 Name: John Doe
-
-Skills: Python, Flask, React\n
-
-Experience: Software Developer at ABC Corp\n
-
-Education: B.Sc. in Computer Science from XYZ University (Graduation Year: 2022)
-CGPA: 3.8
-Certifications: AWS Certified Solutions Architect\n
-Contact: Phone Number, Address, Email, LinkedIn
-Output:
+- Skills: Python, Flask, React\n
+- Experience: Software Developer at ABC Corp
+- Education: B.Sc. in Computer Science from XYZ University (Graduation Year: 2022)
+- CGPA: 3.8
+- Certifications: AWS Certified Solutions Architect
+- Contact: Phone Number, Address, Email, LinkedIn
+- Output:
 A clean and modern resume in HTML format with structured sections for name, skills, experience, education, contact information, and certifications, styled dynamically with CSS.
 
 ## Future Enhancements
