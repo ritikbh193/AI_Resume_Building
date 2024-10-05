@@ -43,9 +43,12 @@ The form takes the following inputs:
 - Example
 * User Input:
 
-% Name: John Doe
-% Skills: Python, Flask, React
+Name: John Doe
+
+Skills: Python, Flask, React
+
 Experience: Software Developer at ABC Corp
+
 Education: B.Sc. in Computer Science from XYZ University (Graduation Year: 2022)
 CGPA: 3.8
 Certifications: AWS Certified Solutions Architect
