@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            padding: 20px;
+        }
+        .container {
+            width: 60%;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        label {
+            font-weight: bold;
+            display: block;
+            margin-top: 10px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #333;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Resume Builder Form</h1>
+        <form action="/generate_resume" method="POST">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+             <!-- <label for="summary">Personal Summary:</label>
+            <textarea id="summary" name="summary" rows="4" required></textarea>   -->
+        
+
+            <label for="university">University:</label>
+            <input type="text" id="university" name="university" required>
+
+
+
+            <label for="degree">Degree:</label>
+            <input type="text" id="degree" name="degree" required>
+            
+
+            <label for="graduation_year">Graduation Year:</label>
+            <input type="text" id="graduation_year" name="graduation_year" required>
+
+            <label for="skills">Skills (comma separated):</label>
+            <input type="text" id="skills" name="skills" required>
+
+            <label for="languages">Languages (comma separated):</label>
+            <input type="text" id="languages" name="languages" required>
+
+            <label for="experience">Additional Experiences:</label>
+            <input id="experience" name="experience" rows="4" required></textarea>
+
+            <label for="address">Contact Info (Address):</label>
+            <input type="text" id="address" name="address" required>
+
+            <label for="phone">Phone:</label>
+            <input type="text" id="phone" name="phone" required>
+
+            <label for="LinkedIn_url">LinkedIn_url:</label>
+            <input type="text" id="LinkedIn_url" name="LinkedIn_url">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <button type="submit">Generate Resume</button>
+        </form>
+    </div>
+
+</body>
+</html>  
