@@ -16,3 +16,9 @@ This project is a Flask-based web application that allows users to input their p
 - Front-end: HTML, CSS (generated dynamically)
 - AI Integration: Langchain’s Conversational Chain with ConversationBufferMemory
 - Deployment: The application runs locally using Flask’s built-in development server
+
+## Key Libraries and Dependencies
+- Flask: Micro web framework for handling HTTP requests and serving web pages.
+- Langchain: Used for interacting with large language models, specifically the Google Gemini API.
+- Google Generative AI (Gemini): Powered by Google's LLM (large language model) for dynamic resume generation.
+- ConversationBufferMemory: Maintains the chat context for interaction with the LLM to produce coherent and relevant responses based on prior user inputs.
