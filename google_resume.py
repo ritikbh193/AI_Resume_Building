@@ -12,8 +12,8 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 app = Flask(__name__)
 
 # Initialize Google Generative API
-# google_api_key = 'AIzaSyBJWlNMenrW-rJ5bbl29DH9Qmkz7cdbYmg'
-google_api_key = 'AIzaSyAJLv_QjBn1QPliUJ6_CTR4peHzd2cXVYg'
+# google_api_key = 'API KEY'
+google_api_key = 'API KEY'
 llm = ChatGoogleGenerativeAI(model='gemini-1.5-pro-latest', temperature=0.7, google_api_key=google_api_key)
 
 memory = ConversationBufferMemory()
